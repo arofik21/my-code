@@ -1,8 +1,23 @@
 "use client";
 import React, { useEffect, useState } from "react";
 
-const teams = () => {
-  const [members, setMembers] = useState([]);
+// Mendefinisikan tipe untuk anggota tim
+interface Member {
+  name: {
+    first: string;
+    last: string;
+  };
+  email: string;
+  location: {
+    city: string;
+  };
+  picture: {
+    large: string;
+  };
+}
+
+const Teams = () => {
+  const [members, setMembers] = useState<Member[]>([]); // Menentukan tipe state
 
   useEffect(() => {
     const fetchMembers = async () => {
@@ -44,4 +59,4 @@ const teams = () => {
   );
 };
 
-export default teams;
+export default Teams;

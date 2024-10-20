@@ -13,9 +13,9 @@ const About = () => {
             <Image
               src="/imgAbout.png"
               alt="Illustration representing our company"
-              layout="fill"
-              objectFit="cover"
-              className="rounded-lg"
+              fill // Menggunakan fill untuk mengisi kontainer
+              sizes="(max-width: 640px) 100vw, (min-width: 641px) 50vw" // Sesuaikan ukuran responsif
+              className="rounded-lg object-cover" // Tambahkan object-cover untuk efek cover
             />
           </div>
           <article className="h-full flex flex-col justify-center items-start">
@@ -27,7 +27,6 @@ const About = () => {
               but the majority have suffered in some form, by injected humour.
             </p>
             <div className="mt-6">
-              {" "}
               {/* Menambahkan margin top untuk jarak */}
               <ul className="list-about-us space-y-2">
                 <li>
