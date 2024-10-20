@@ -4,15 +4,15 @@ export const menu = [
     url: "/",
   },
   {
-    label: "About",
+    label: "About Us",
     url: "/about",
   },
   {
-    label: "Blog",
-    url: "/blog",
+    label: "Products",
+    url: "/products",
   },
   {
-    label: "Contact",
-    url: "/contact",
+    label: "Teams",
+    url: "/teams",
   },
 ];

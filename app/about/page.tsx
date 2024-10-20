@@ -1,7 +1,12 @@
 import React from "react";
+import About from "@/components/home/About";
 
-const about = () => {
-  return <div></div>;
+const products = () => {
+  return (
+    <div>
+      <About></About>
+    </div>
+  );
 };
 
-export default about;
+export default products;

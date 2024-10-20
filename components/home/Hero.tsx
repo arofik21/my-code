@@ -8,7 +8,7 @@ const fontInter = Inter({ subsets: ["latin"], weight: "300" });
 
 const Hero = () => {
   return (
-    <div className="py-[200px] bg-[url('/hero.jpeg')] bg-right bg-no-repeat">
+    <div className="py-[200px] bg-[url('/hero.svg')] bg-right bg-no-repeat">
       <div className="container mx-auto px-4 xl:px-0">
         <div className="grid grid-cols-12 gap-4">
           <div className="col-span-12 md:col-span-10 xl:col-span-7">
