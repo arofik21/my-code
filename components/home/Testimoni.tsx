@@ -28,7 +28,9 @@ const Testimoni = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
             <div key={index} className="bg-white p-6 rounded-lg shadow-lg">
-              <p className="text-gray-700 italic">"{testimonial.feedback}"</p>
+              <p className="text-gray-700 italic">
+                &quot;{testimonial.feedback}&quot;
+              </p>
               <h3 className="text-lg font-semibold mt-4">{testimonial.name}</h3>
               <p className="text-sm text-gray-500">{testimonial.role}</p>
             </div>
