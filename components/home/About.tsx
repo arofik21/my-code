@@ -23,8 +23,12 @@ const About = () => {
               About Us
             </h2>
             <p className="mb-4">
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered in some form, by injected humour.
+              At Webindo Dev, we are passionate about crafting exceptional
+              digital experiences that empower not only businesses but also
+              individuals and organizations to thrive in the online world. Our
+              team of skilled developers, designers, and digital strategists
+              works collaboratively to deliver innovative web solutions tailored
+              to meet the unique needs of each client.
             </p>
             <div className="mt-6">
               {/* Menambahkan margin top untuk jarak */}
